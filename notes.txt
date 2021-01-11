@@ -1,0 +1,10 @@
+DB setup
+
+1. Create the role for the app
+CREATE ROLE "express-mvp-dbuser" WITH LOGIN PASSWORD '123412';
+
+2. Create the database
+CREATE DATABASE "express-mvp-db";
+
+3. Using sequelize cli, run the command to create config file
+sequelize init 
