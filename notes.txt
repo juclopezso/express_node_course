@@ -8,3 +8,6 @@ CREATE DATABASE "express-mvp-db";
 
 3. Using sequelize cli, run the command to create config file
 sequelize init 
+
+4. Run migrations
+sequelize db:migrate 
